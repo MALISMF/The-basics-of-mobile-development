@@ -2,29 +2,28 @@ import java.io.FileInputStream
 import java.util.*
 import java.io.File
 
-fun printDialogues(dict: Map<String, List<String>>) {
-    for ((speaker, lines) in dict) {
-        println("$speaker:")
-        for ((index, line) in lines.withIndex()) {
-            println("${index + 1}) $line")
-        }
-        println()
+fun groupLinesBySpeaker(roles: List<String>, textLines: List<String>): LinkedHashMap<String, MutableList<String>> {
+    val roleToLines = LinkedHashMap<String, MutableList<String>>(roles.size)
+    for (role in roles) roleToLines[role] = mutableListOf()
+
+    for ((idx, line) in textLines.withIndex()) {
+        val colon = line.indexOf(':')
+        if (colon < 0) continue
+        val speaker = line.substring(0, colon)
+        val text = line.substring(colon + 1).trimStart()
+        roleToLines[speaker]?.add("${idx + 1}) $text")
     }
+    return roleToLines
 }
 
-fun groupLinesBySpeaker(textLines: List<String>): MutableMap<String, MutableList<String>> {
-    val dict: MutableMap<String, MutableList<String>> = mutableMapOf()
-    for (t in textLines) {
-        val colon = t.indexOf(":")
-        val speaker = t.substring(0, colon)
-        val line = t.substring(colon + 1)
-        if (speaker !in dict) {
-            dict[speaker] = mutableListOf(line)
-        } else {
-            dict[speaker]?.add(line)
-        }
+fun printDialogues(roles: List<String>, textLines: List<String>) {
+    val dict = groupLinesBySpeaker(roles, textLines)
+    for ((i, role) in roles.withIndex()) {
+        println("$role:")
+        val lines = dict[role] ?: emptyList()
+        for (line in lines) println(line)
+        if (i != roles.lastIndex) println()
     }
-    return dict
 }
 
 fun main() {
@@ -36,6 +35,5 @@ fun main() {
 
     val textLines = File("src/textLines.txt").readLines()
 
-    val dict = groupLinesBySpeaker(textLines)
-    printDialogues(dict)
+    printDialogues(roles, textLines)
 }
