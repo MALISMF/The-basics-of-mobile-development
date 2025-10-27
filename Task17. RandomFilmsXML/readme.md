@@ -1,8 +1,8 @@
 # Старт программы / Сброс фильмов
-![alt text](Screenshot_20251027_131000_RandomFilms.jpg)
+<img src="Screenshot_20251027_131000_RandomFilms.jpg" width="300" alt="Старт программы">
 
 # Фильм выбран
-![alt text](Screenshot_20251027_131004_RandomFilms.jpg)
+<img src="Screenshot_20251027_131004_RandomFilms.jpg" width="300" alt="Фильм выбран">
 
 # Фильмы закончились
-![alt text](Screenshot_20251027_131019_RandomFilms.jpg)
+<img src="Screenshot_20251027_131019_RandomFilms.jpg" width="300" alt="Фильмы закончились">
