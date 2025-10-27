@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">RandomFilms</string>
+    <string name="reset">Начать заново</string>
+    <string-array name="movies">
+        <item>Inception</item>
+        <item>The Dark Knight</item>
+        <item>Interstellar</item>
+        <item>Pulp Fiction</item>
+        <item>The Shawshank Redemption</item>
+        <item>Forrest Gump</item>
+        <item>The Matrix</item>
+        <item>Goodfellas</item>
+        <item>The Godfather</item>
+        <item>Fight Club</item>
+        <item>Avatar</item>
+        <item>Titanic</item>
+        <item>Star Wars</item>
+        <item>Jurassic Park</item>
+        <item>Back to the Future</item>
+    </string-array>
+</resources>
