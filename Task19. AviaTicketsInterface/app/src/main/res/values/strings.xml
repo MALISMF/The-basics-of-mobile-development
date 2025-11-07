@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Avia_tickets</string>
+    
+    <!-- Подсказки для выпадающих списков -->
+    <string name="from_city_prompt">Город вылета</string>
+    <string name="to_city_prompt">Город прилёта</string>
+    
+    <!-- Подсказки для полей дат -->
+    <string name="depart_date">Дата вылета</string>
+    <string name="return_date">Дата прилёта</string>
+    
+    <!-- Подсказки для пассажиров -->
+    <string name="adults">Взрослые</string>
+    <string name="children">Дети</string>
+    <string name="infants">Младенцы</string>
+    
+    <!-- Кнопка поиска -->
+    <string name="search">Поиск</string>
+    
+    <!-- Массив городов -->
+    <string-array name="cities">
+        <item>Москва</item>
+        <item>Санкт-Петербург</item>
+        <item>Новосибирск</item>
+        <item>Екатеринбург</item>
+        <item>Казань</item>
+        <item>Нижний Новгород</item>
+        <item>Челябинск</item>
+        <item>Самара</item>
+        <item>Омск</item>
+        <item>Ростов-на-Дону</item>
+        <item>Уфа</item>
+        <item>Красноярск</item>
+        <item>Воронеж</item>
+        <item>Пермь</item>
+        <item>Волгоград</item>
+        <item>Краснодар</item>
+        <item>Саратов</item>
+        <item>Тюмень</item>
+        <item>Тольятти</item>
+        <item>Ижевск</item>
+    </string-array>
+</resources>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:padding="16dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="400dp">
+
+        <!-- Spinner для города вылета -->
+        <Spinner
+            android:id="@+id/spinner_from"
+            android:layout_width="0dp"
+            android:layout_height="56dp"
+            android:spinnerMode="dropdown"
+            android:prompt="@string/from_city_prompt"
+            android:background="@android:drawable/btn_dropdown"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/spinner_to"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintHorizontal_chainStyle="spread"
+            android:layout_marginEnd="8dp" />
+
+        <!-- Spinner для города прилёта -->
+        <Spinner
+            android:id="@+id/spinner_to"
+            android:layout_width="0dp"
+            android:layout_height="56dp"
+            android:spinnerMode="dropdown"
+            android:prompt="@string/to_city_prompt"
+            android:background="@android:drawable/btn_dropdown"
+            app:layout_constraintStart_toEndOf="@+id/spinner_from"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginStart="8dp" />
+
+        <!-- Поле для даты вылета -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/til_depart_date"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/depart_date"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/til_return_date"
+            app:layout_constraintTop_toBottomOf="@+id/spinner_from"
+            app:layout_constraintHorizontal_chainStyle="spread"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_depart_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="none"
+                android:focusable="false"
+                android:clickable="true"
+                android:minHeight="56dp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Поле для даты прилёта -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/til_return_date"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/return_date"
+            app:layout_constraintStart_toEndOf="@+id/til_depart_date"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/til_depart_date"
+            android:layout_marginStart="8dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_return_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="none"
+                android:focusable="false"
+                android:clickable="true"
+                android:minHeight="56dp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Поле для количества взрослых -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/til_adults"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/adults"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/til_children"
+            app:layout_constraintTop_toBottomOf="@+id/til_depart_date"
+            app:layout_constraintHorizontal_chainStyle="spread"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_adults"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:maxLines="1"
+                android:minHeight="56dp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Поле для количества детей -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/til_children"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/children"
+            app:layout_constraintStart_toEndOf="@+id/til_adults"
+            app:layout_constraintEnd_toStartOf="@+id/til_infants"
+            app:layout_constraintTop_toTopOf="@+id/til_adults"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_children"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:maxLines="1"
+                android:minHeight="56dp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Поле для количества младенцев -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/til_infants"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/infants"
+            app:layout_constraintStart_toEndOf="@+id/til_children"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/til_adults"
+            android:layout_marginStart="8dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_infants"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:maxLines="1"
+                android:minHeight="56dp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Кнопка поиска -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_search"
+            android:layout_width="0dp"
+            android:layout_height="56dp"
+            android:text="@string/search"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/til_adults"
+            android:layout_marginTop="24dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
