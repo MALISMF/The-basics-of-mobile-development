@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">GuessTheNumber</string>
+    <string name="range_title">Задайте диапазон</string>
+    <string name="range_description">Введите минимальное и максимальное значения, которые вы загадали.</string>
+    <string name="range_min_hint">Минимум</string>
+    <string name="range_max_hint">Максимум</string>
+    <string name="range_start_button">Начать угадывание</string>
+    <string name="guess_title">Попытка %1$d</string>
+    <string name="guess_range">Текущий диапазон: %1$d – %2$d</string>
+    <string name="guess_question">Ваше число %1$d?</string>
+    <string name="guess_less_button">Меньше</string>
+    <string name="guess_more_button">Больше</string>
+    <string name="guess_equal_button">Угадал!</string>
+    <string name="guess_success_message">Ура! Я угадал за %1$d попыток.</string>
+    <string name="guess_inconsistent_state">Похоже, ответы противоречат диапазону. Попробуйте начать заново.</string>
+    <string name="guess_restart_button">Вернуться к диапазону</string>
+    <string name="guess_missing_range">Диапазон не найден. Запустите угадывание заново.</string>
+    <string name="range_error_empty">Введите значение</string>
+    <string name="range_error_order">Минимум должен быть меньше максимума</string>
+    <string name="range_error_number">Введите целое число</string>
+</resources>
