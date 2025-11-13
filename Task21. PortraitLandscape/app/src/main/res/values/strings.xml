@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">PortraitLandscape</string>
+    <string-array name="pictures">
+        <item>car 1</item>
+        <item>car 2</item>
+        <item>car 3</item>
+    </string-array>
+    <string name="change_picture">Change picture</string>
+    <string name="picture_selected_toast">Выбрана картинка %1$d</string>
+    <string name="picture_not_selected_toast">Картинка не выбрана</string>
+</resources>
