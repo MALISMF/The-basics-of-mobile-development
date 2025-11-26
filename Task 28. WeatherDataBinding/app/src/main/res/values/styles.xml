@@ -1,0 +1,8 @@
+<resources>
+    <style name="TextAppearance.MaterialComponents.HeadlineSmall" parent="@style/TextAppearance.Material3.TitleLarge" />
+    <style name="TextAppearance.MaterialComponents.BodySmall" parent="@style/TextAppearance.Material3.BodySmall" />
+    <style name="TextAppearance.MaterialComponents.DisplaySmall" parent="@style/TextAppearance.Material3.DisplaySmall" />
+    <style name="TextAppearance.MaterialComponents.BodyMedium" parent="@style/TextAppearance.Material3.BodyMedium" />
+    <style name="TextAppearance.MaterialComponents.BodyLarge" parent="@style/TextAppearance.Material3.BodyLarge" />
+</resources>
+
