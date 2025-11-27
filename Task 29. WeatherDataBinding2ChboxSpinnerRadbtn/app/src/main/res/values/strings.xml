@@ -27,12 +27,19 @@
     <string name="label_fahrenheit">Фаренгейт (°F)</string>
     <string name="label_show_wind_direction">Показать направление ветра</string>
     <string name="label_select_city">Выберите город</string>
-    <string-array name="popular_cities">
+    <string-array name="weather_cities_display">
+        <item>Иркутск</item>
+        <item>Ангарск</item>
+        <item>Москва</item>
+        <item>Санкт-Петербург</item>
+        <item>Екатеринбург</item>
+    </string-array>
+    <string-array name="weather_cities_api">
         <item>Irkutsk</item>
+        <item>Angarsk</item>
         <item>Moscow</item>
         <item>Saint Petersburg</item>
-        <item>Novosibirsk</item>
-        <item>Kazan</item>
+        <item>Yekaterinburg</item>
     </string-array>
     <string name="action_settings">Settings</string>
     <string name="first_fragment_label">First Fragment</string>
