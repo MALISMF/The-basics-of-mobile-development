@@ -1,0 +1,58 @@
+{
+  "Irkutsk": {
+    "city": "Irkutsk",
+    "temperature": 15.5,
+    "feelsLike": 14.2,
+    "description": "ясно",
+    "humidity": 65,
+    "pressure": 1013,
+    "windSpeed": 3.2,
+    "windDeg": 180,
+    "cloudiness": 10
+  },
+  "Moscow": {
+    "city": "Moscow",
+    "temperature": 22.3,
+    "feelsLike": 21.8,
+    "description": "переменная облачность",
+    "humidity": 55,
+    "pressure": 1015,
+    "windSpeed": 2.5,
+    "windDeg": 270,
+    "cloudiness": 45
+  },
+  "Saint Petersburg": {
+    "city": "Saint Petersburg",
+    "temperature": 18.7,
+    "feelsLike": 17.5,
+    "description": "облачно",
+    "humidity": 70,
+    "pressure": 1012,
+    "windSpeed": 4.1,
+    "windDeg": 90,
+    "cloudiness": 75
+  },
+  "Novosibirsk": {
+    "city": "Novosibirsk",
+    "temperature": 12.1,
+    "feelsLike": 11.0,
+    "description": "ясно",
+    "humidity": 60,
+    "pressure": 1014,
+    "windSpeed": 2.8,
+    "windDeg": 225,
+    "cloudiness": 5
+  },
+  "Kazan": {
+    "city": "Kazan",
+    "temperature": 20.5,
+    "feelsLike": 19.8,
+    "description": "переменная облачность",
+    "humidity": 58,
+    "pressure": 1016,
+    "windSpeed": 3.5,
+    "windDeg": 135,
+    "cloudiness": 30
+  }
+}
+
