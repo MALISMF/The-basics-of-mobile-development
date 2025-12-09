@@ -1,0 +1,24 @@
+R_DEF: Internal format may change without notice
+local
+color colorAccent
+color colorPrimary
+color colorPrimaryDark
+drawable blue
+drawable gift_box
+drawable gift_box_blue
+drawable gift_box_open
+drawable gift_box_orange
+drawable ic_launcher_foreground
+drawable ic_transparent
+drawable orange
+id box_image
+id test_button
+layout activity_main
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+string main_text_button
+style Base.Theme.GiftApp
+style Theme.GiftApp
+xml backup_rules
+xml data_extraction_rules

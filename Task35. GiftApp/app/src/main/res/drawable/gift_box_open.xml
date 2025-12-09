@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    
+    <!-- Открытая крышка слева -->
+    <path
+        android:fillColor="#FF5252"
+        android:pathData="M40,50 L50,50 L50,70 L40,70 Z"/>
+    
+    <!-- Открытая крышка справа -->
+    <path
+        android:fillColor="#FF5252"
+        android:pathData="M150,50 L160,50 L160,70 L150,70 Z"/>
+    
+    <!-- Коробка подарка -->
+    <path
+        android:fillColor="#FF6B6B"
+        android:pathData="M50,50 L150,50 L150,150 L50,150 Z"/>
+    
+    <!-- Лента вертикальная -->
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M95,50 L105,50 L105,150 L95,150 Z"/>
+    
+    <!-- Лента горизонтальная -->
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M50,95 L150,95 L150,105 L50,105 Z"/>
+    
+    <!-- Содержимое подарка (звездочки) -->
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M90,80 L92,85 L97,85 L93,88 L95,93 L90,90 L85,93 L87,88 L83,85 L88,85 Z"/>
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M110,100 L112,105 L117,105 L113,108 L115,113 L110,110 L105,113 L107,108 L103,105 L108,105 Z"/>
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M100,120 L101,123 L104,123 L102,125 L103,128 L100,126 L97,128 L98,125 L96,123 L99,123 Z"/>
+</vector>
+

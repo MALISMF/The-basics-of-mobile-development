@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    
+    <!-- Коробка подарка (синяя) -->
+    <path
+        android:fillColor="#2196F3"
+        android:pathData="M50,50 L150,50 L150,150 L50,150 Z"/>
+    
+    <!-- Крышка (темно-синяя) -->
+    <path
+        android:fillColor="#1976D2"
+        android:pathData="M40,50 L160,50 L160,70 L40,70 Z"/>
+    
+    <!-- Лента вертикальная -->
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M95,50 L105,50 L105,150 L95,150 Z"/>
+    
+    <!-- Лента горизонтальная -->
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M50,95 L150,95 L150,105 L50,105 Z"/>
+    
+    <!-- Бант сверху -->
+    <path
+        android:fillColor="#2E7D32"
+        android:pathData="M85,50 L90,40 L95,50 L95,60 L85,60 Z"/>
+    <path
+        android:fillColor="#2E7D32"
+        android:pathData="M105,50 L110,40 L115,50 L115,60 L105,60 Z"/>
+    
+    <!-- Бант снизу -->
+    <path
+        android:fillColor="#2E7D32"
+        android:pathData="M85,95 L90,105 L95,95 L95,85 L85,85 Z"/>
+    <path
+        android:fillColor="#2E7D32"
+        android:pathData="M105,95 L110,105 L115,95 L115,85 L105,85 Z"/>
+</vector>
+
