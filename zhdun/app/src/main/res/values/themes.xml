@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Zhdun" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#E8927C</item>
+        <item name="colorPrimaryVariant">#D47A64</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorSecondary">#A8D5BA</item>
+        <item name="android:statusBarColor">#D47A64</item>
+    </style>
+</resources>

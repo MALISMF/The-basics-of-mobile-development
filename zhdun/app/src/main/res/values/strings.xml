@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ждун</string>
+    <string name="initial_status">время созерцания: 0 мин.</string>
+    <string name="btn_stop">Надоело ждать?</string>
+    <string name="toast_text">Ждун устал ждать… До новых встреч!</string>
+    <string name="zhdun_desc">Изображение Ждуна</string>
+</resources>

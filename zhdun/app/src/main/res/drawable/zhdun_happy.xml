@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Тело Ждуна -->
+    <path
+        android:fillColor="#D3CFC8"
+        android:pathData="M100,180 C55,180 30,150 30,110 C30,70 55,45 100,45 C145,45 170,70 170,110 C170,150 145,180 100,180 Z" />
+
+    <!-- Складки на теле -->
+    <path
+        android:fillColor="#C4BFB7"
+        android:pathData="M50,120 Q75,130 100,120"
+        android:strokeWidth="2"
+        android:strokeColor="#C4BFB7" />
+    <path
+        android:fillColor="#C4BFB7"
+        android:pathData="M60,140 Q85,150 110,140"
+        android:strokeWidth="2"
+        android:strokeColor="#C4BFB7" />
+
+    <!-- Голова -->
+    <path
+        android:fillColor="#D3CFC8"
+        android:pathData="M100,65 C75,65 60,50 60,35 C60,15 78,5 100,5 C122,5 140,15 140,35 C140,50 125,65 100,65 Z" />
+
+    <!-- Хоботок -->
+    <path
+        android:fillColor="#C9C4BC"
+        android:pathData="M100,45 C95,45 85,55 80,70 Q78,78 82,80 C86,82 92,75 100,65"
+        android:strokeWidth="1"
+        android:strokeColor="#B8B3AB" />
+
+    <!-- Глазки (довольные, полузакрытые) -->
+    <path
+        android:pathData="M82,28 Q86,32 90,28"
+        android:strokeWidth="2.5"
+        android:strokeColor="#5A5A5A"
+        android:fillColor="#00000000" />
+    <path
+        android:pathData="M110,28 Q114,32 118,28"
+        android:strokeWidth="2.5"
+        android:strokeColor="#5A5A5A"
+        android:fillColor="#00000000" />
+
+    <!-- Ручки -->
+    <path
+        android:fillColor="#D3CFC8"
+        android:pathData="M35,100 Q20,110 25,130 Q28,135 35,130 Q40,120 42,110 Z"
+        android:strokeWidth="1"
+        android:strokeColor="#C4BFB7" />
+    <path
+        android:fillColor="#D3CFC8"
+        android:pathData="M165,100 Q180,110 175,130 Q172,135 165,130 Q160,120 158,110 Z"
+        android:strokeWidth="1"
+        android:strokeColor="#C4BFB7" />
+</vector>
