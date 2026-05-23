@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kotlin DB Companies</string>
+    <string name="app_description">Капитализация российских компаний\nна конец 2020 года</string>
+    <string name="hint_company_name">Введите часть имени компании</string>
+    <string name="btn_delete">Удалить компании с такими именами из базы</string>
+    <string name="btn_analysis">Анализ данных</string>
+    <string name="analysis_title">Анализ данных</string>
+    <string name="label_total_cap">Общая капитализация</string>
+    <string name="label_above_average">Компаний с капитализацией выше среднего</string>
+    <string name="label_english">Компаний с англоязычными названиями</string>
+    <string name="label_max_cap">Компания с самой высокой капитализацией</string>
+    <string name="label_longest">Компания с самым длинным названием</string>
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="analysis_title">Анализ данных</string>
+    <string name="app_description">Капитализация российских компаний\nна конец 2020 года</string>
+    <string name="app_name">Kotlin DB Companies</string>
+    <string name="btn_analysis">Анализ данных</string>
+    <string name="btn_delete">Удалить компании с такими именами из базы</string>
+    <string name="hint_company_name">Введите часть имени компании</string>
+    <string name="label_above_average">Компаний с капитализацией выше среднего</string>
+    <string name="label_english">Компаний с англоязычными названиями</string>
+    <string name="label_longest">Компания с самым длинным названием</string>
+    <string name="label_max_cap">Компания с самой высокой капитализацией</string>
+    <string name="label_total_cap">Общая капитализация</string>
+    <style name="Theme.Pr57" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+    </style>
+</resources>
