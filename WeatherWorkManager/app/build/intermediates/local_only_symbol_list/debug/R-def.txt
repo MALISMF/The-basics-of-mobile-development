@@ -1,0 +1,22 @@
+R_DEF: Internal format may change without notice
+local
+id btnFetch
+id divider
+id itemProgress
+id progressBar
+id recyclerView
+id tvCity
+id tvDescription
+id tvError
+id tvFeelsLike
+id tvHumidity
+id tvStatus
+id tvTemp
+id tvTitle
+id tvWind
+layout activity_main
+layout item_weather
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Theme.WeatherWorkManager
